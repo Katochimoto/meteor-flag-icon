@@ -1,6 +1,6 @@
 {
   "name": "flag-icon",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "CSS for vector based country flags.",
   "main": "lib/flag-icon.css",
   "scripts": {

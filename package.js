@@ -1,6 +1,6 @@
 Package.describe({
   name: 'rikishi:flag-icon',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'CSS for vector based country flags.',
   git: 'https://github.com/Katochimoto/meteor-flag-icon.git',
   documentation: 'README.md'
