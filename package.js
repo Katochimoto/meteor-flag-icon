@@ -34,7 +34,7 @@ var flags = [
 ];
 
 var path = Npm.require('path');
-var basePath = 'lib/flags';
+var basePath = 'flags';
 var flagsFilesGetter = function (srcPath) {
   srcPath = path.join(basePath, srcPath);
   return function () {
@@ -51,7 +51,7 @@ var getWideFlags = flagsFilesGetter('4x3');
 
 Package.onUse(function(api) {
   api.versionsFrom('1.8.1');
-  api.addFiles('lib/flag-icon.css', 'client');
+  api.addFiles('flag-icon.css', 'client');
   [getSquareFlags(), getWideFlags()].forEach(function (files) {
     files.forEach(function (file) {
       api.addFiles(file, 'client', { isAsset: true });

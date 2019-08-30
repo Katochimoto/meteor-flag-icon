@@ -4,9 +4,9 @@
   "description": "CSS for vector based country flags.",
   "main": "lib/flag-icon.css",
   "scripts": {
-    "clear": "rm -rf lib; mkdir lib",
-    "icons": "cp -R node_modules/flag-icon-css/flags lib/flags",
-    "build": "npm run clear; npm run icons; lessc -ru=all src/flag-icon.less lib/flag-icon.css"
+    "clear": "rm -rf flags",
+    "icons": "cp -R node_modules/flag-icon-css/flags flags",
+    "build": "npm run clear; npm run icons; lessc src/flag-icon.less flag-icon.css"
   },
   "repository": {
     "type": "git",
