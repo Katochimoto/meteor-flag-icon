@@ -53,8 +53,6 @@ Package.onUse(function(api) {
   api.versionsFrom('1.8.1');
   api.addFiles('flag-icon.css', 'client');
   [getSquareFlags(), getWideFlags()].forEach(function (files) {
-    files.forEach(function (file) {
-      api.addFiles(file, 'client', { isAsset: true });
-    });
+    api.addAssets(files, 'client');
   });
 });
