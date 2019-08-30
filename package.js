@@ -50,7 +50,7 @@ Package.describe({
 // var getWideFlags = flagsFilesGetter('4x3');
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.7.0');
+  api.versionsFrom('1.8.1');
   api.addFiles('flag-icon.css', 'client');
   // [getSquareFlags(), getWideFlags()].forEach(function (files) {
   //   api.addAssets(files, 'client');
